@@ -62,12 +62,12 @@ export function SidebarDemo() {
           <div>
             <SidebarLink
               link={{
-                label: "Shivang",
-                href: "https://github.com/shivang-16",
+                label: "Karan",
+                href: "https://github.com/karanpraja902",
                 icon: (
                   <Image
-                    src="https://github.com/shivang-16.png"
-                    alt="Shivang"
+                    src="https://github.com/karanpraja902.png"
+                    alt="Karan"
                     width={24}
                     height={24}
                     className="rounded-full"
@@ -84,7 +84,7 @@ export function SidebarDemo() {
 export const Logo = () => {
   return (
     <Link
-      href="https://github.com/shivang-16/Gsoc_issue_tracker.web"
+      href="https://github.com/karanpraja902/OpenSource_issue_tracker.client"
       className="font-normal flex space-x-2 items-center text-sm text-black py-1 relative z-20"
     >
       <IconBrandGithub className="text-black dark:text-white h-5 w-5 flex-shrink-0" />
@@ -93,7 +93,7 @@ export const Logo = () => {
         animate={{ opacity: 1 }}
         className="font-medium text-black dark:text-white whitespace-pre"
       >
-        Gsoc Issue Tracker
+        OpenSource Issue Tracker
       </motion.span>
     </Link>
   );
@@ -101,7 +101,7 @@ export const Logo = () => {
 export const LogoIcon = () => {
   return (
     <Link
-      href="https://github.com/shivang-16/Gsoc_issue_tracker.web"
+      href="https://github.com/karanprajat902/OpenSource_Issue_Tracker.client"
       className="font-normal flex space-x-2 items-center text-sm text-black py-1 relative z-20"
     >
       <IconBrandGithub className="text-black dark:text-white h-5 w-5 flex-shrink-0" />

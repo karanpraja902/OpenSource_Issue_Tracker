@@ -51,12 +51,12 @@ export const Dashboard = () => {
           </div>
         </div>
 
-        {/* GSoC Orgs Section */}
+        {/* OpenSourceOrgs Section */}
         <div className="flex-1 h-full overflow-auto">
           <div className="p-4 md:p-6 rounded-md border-neutral-200 dark:border-neutral-700 bg-white dark:bg-transparent flex flex-col gap-4 shadow-lg">
             <div className="flex justify-between items-center gap-2 w-5/6 m-auto pt-2 sm:pt-14">
               <h2 className="text-lg sm:text-xl lg:text-xl font-bold text-gray-800 dark:text-white">
-                Top GSoC Organizations
+                Top OpenSource Organizations
               </h2>
               <Link
                 href="/gsoc-orgs"

@@ -13,9 +13,9 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Gsoc Issue Tracker",
+  title: "OpenSource Issue Tracker",
   description:
-    "Find and Filter GSoC Issues and Organizations Based on Your Tech Stack, All in One Place!",
+    "Find and Filter OpenSourceIssues and Organizations Based on Your Tech Stack, All in One Place!",
 };
 export default function RootLayout({
   children,

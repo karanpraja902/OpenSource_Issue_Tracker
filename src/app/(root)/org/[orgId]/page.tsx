@@ -176,8 +176,8 @@ const OrganizationDetails = () => {
                 </div>
               </div>
 
-              {/* GSoC Years Tabs */}
-              <h2 className="text-xl font-semibold text-gray-200 mt-10">GSoC Years:</h2>
+              {/* OpenSourceYears Tabs */}
+              <h2 className="text-xl font-semibold text-gray-200 mt-10">OpenSourceYears:</h2>
               <div className="flex gap-4 mt-4">
                 {Object.keys(orgDetails.gsoc_years).map((year) => (
                   <button

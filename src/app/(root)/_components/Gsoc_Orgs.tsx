@@ -34,7 +34,7 @@ export default function Gsoc_Orgs({ top, filters }: { top?: boolean, filters?: a
           }
         }
       } catch (error) {
-        console.error('Error fetching GSoC organizations:', error);
+        console.error('Error fetching OpenSourceorganizations:', error);
       } finally {
         setLoading(false);
       }
